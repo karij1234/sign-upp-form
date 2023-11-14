@@ -1,0 +1,182 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+
+.wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the wrapper horizontally */
+}
+
+/* Your existing styles for .back, .logo, .down, form, etc. */
+
+
+
+
+.back{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url('https://p1.piqsels.com/preview/804/850/497/night-moon-moonlight-sea-water-dark.jpg') center/cover no-repeat; 
+}
+.logo{
+    background-color: black;
+    opacity:0.7;
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    top:20%;
+    font-size: 70px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+}
+.mydummy{
+    margin-top: 65px;
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    padding: 40px;
+    font-size: 30px;
+}
+.dummy2{
+    margin-left: 40px;
+    font-size: 30px;
+}
+.dummy{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 35vh;
+
+}
+form{
+    background-color: white;
+    height: 65vh;
+    display:flex;
+    flex-direction: column;
+}
+fieldset{
+    height: 350px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-color: transparent;  
+     
+}
+.mybox:nth-child(2n){
+    justify-content: end;
+}
+
+.mybox{
+    width: 45%;
+    padding-bottom: 15px;
+}
+
+input{
+    width: 95%;
+    font-size: 20px;
+    border-color:lightgrey;
+    border-radius:5px;
+    margin-left:20px;
+}
+label{
+    margin-left:20px;
+}
+
+legend{
+    font-size:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+.shadow{
+   
+    width: 100%;
+    box-shadow: 0 2px gainsboro;
+   
+}
+
+.acount{
+    width: 180px;
+    height: 40px;
+    background-color: #596D48;
+    margin-top:40px;
+    margin-left:40px;
+    border-radius: 10px;
+    border-color: transparent;
+    color: white;
+    font-weight:bold;
+}
+
+.create{
+    display: flex;
+    margin-left:40px;
+    margin-top:40px
+}
+ .login{
+    color:green;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+ }
+
+ /* javascript css*/
+
+ .inn:focus{
+    border-color: blue;
+    outline: none;
+ }
+ .inn:valid{
+    border-color: forestgreen;
+    background-color: lightgreen;
+ }
+
+ .inn:focus:invalid{
+    border-color: red;
+ }
+
+ .error{
+    border-color: red;
+    background-color: lightcoral;
+ }
+ .pas:focus{
+    
+    outline: none;
+ }
+
+ .noterror{
+    border-color: forestgreen;
+    background-color: lightgreen;
+ }
+ .notmatch{
+    margin-left: 20px;
+    color:red
+ }
+ .short{
+    color: red;
+    margin-left:20px;
+ }
+ .col{
+    display: flex;
+    flex-direction: column;
+ }
+
+ 

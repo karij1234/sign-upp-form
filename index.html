@@ -4,10 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
-    <div class="dummy"></div>
-    <div class="logo"></div>
-    
+    <div class="wrapper">
+    <div class="back">
+    <div class="logo">sign upp </div>
+    </div>
+    <div class="down">
+    <div class="dummy">
+        <div class="mydummy">This is not a real online service!
+             You know you need something like this in your life to
+              help you realize your deepest dreams. Sign up now to get
+               started
+        </div>
+        <div class="dummy2">You know you want to.</div>
+    </div>
+    <form>
+        <div class="shadow">
+        <fieldset>
+            <legend>Lets do this!</legend>
+        <div class="mybox">
+            <label for="username"> First name</label>
+            <input class="inn" type="text" id="username" name="username" required>
+        </div>
+        <div class="mybox">
+            <label for="lastname">Last name</label>
+            <input class="inn" type="text" id="lastname" name="lastname" required>
+        </div>
+        <div class="mybox">
+            <label for="mail">Email</label>
+            <input class="inn" type="email" id="mail" name="email" required>
+        </div>
+        <div class="mybox">
+            <label for="phone">Phone number</label>
+            <input class="inn" type="tel" id="phone" name="phone" min="6" max="10"
+             required pattern="\d{9,10}">
+        </div>
+        <div class="mybox">
+            <label for="code">Password</label>
+            <input class="pas" type="password" id="code" name="code" required minlength="4" maxlength="10">
+            <div class="col">
+            <span class="notmatch"></span>
+            <span class="short"></span>
+        </div>
+        </div>
+        <div class="mybox">
+            <label for="concode">Confirm Password</label>
+            <input class="pas" type="password" id="concode" name="concode" required minlength="4" maxlength="10">
+        </div>
+
+        </fieldset>
+    </div>
+        <button class="acount" type="submit">Create Acount</button>
+        <div class="create">
+        <div class="have">Already have an acount?</div>
+        <button class="login">Log in</button>
+       </div>
+    </div>
+    </form>
+</div>
 </body>
 </html>
